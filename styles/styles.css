@@ -1,0 +1,121 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#signupimage{
+    height: 40vh;
+    width: 100vw;
+}
+
+h1,
+p{
+    color: brown;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+label,
+input,
+input[type = text]{
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+    
+}
+
+.signform{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  
+    margin: 30px;
+    position: relative;
+}
+
+.submit button{
+    background-color: cornflowerblue;
+    color: brown;
+    border: none;
+    height: 5vh;
+    width: 20vw;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.box{
+    margin-bottom: 5px;
+}
+
+.box input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.box input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.box.success input{
+    border-color: #2ecc71;
+}
+
+.box.error input{
+    border-color: #e74c3c;
+}
+
+.box i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.box.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.box.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.box small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: -13px;
+    left: 10;
+    visibility: hidden;
+    font-family: 'Bree Serif', serif;;
+}
+
+.box.error small {
+    visibility: visible;
+}
+
+
+
+
+
+
+
